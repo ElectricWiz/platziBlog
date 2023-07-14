@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Agdasima', sans-serif;
 }
 
 .home-body {
@@ -107,7 +108,7 @@ button {
     background-color: #47cfac;
     color: black;
     width: 80px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     height: 35px;
     grid-row: 3 / 4;
     margin: auto;
@@ -191,4 +192,65 @@ footer p {
     margin-top: 30px;
     font-family: 'VT323', monospace;
     font-size: larger;
+}
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 22px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container h1  {
+    font-size: 35px;
+}
+
+.blogpost-main-container article h1 {
+    font-size: 35px;
+}
+
+.contact-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1;
+    background-color: #cdd2da;
+    margin-bottom: 0;
+    font-family: 'Agdasima', sans-serif;
+
+}
+
+ .contact-left-container, .contact-right-container  {
+    display: flex;
+    margin: auto;
+    width: 40.5%;
+    padding: 30px 30px;
+}
+
+.contact-main-container img {
+    width: 30%;
+    height: 40%;
+    justify-self: flex-start;
+    padding-right: 10px;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.post-container {
+    font-family: 'Agdasima', sans-serif;
 }
